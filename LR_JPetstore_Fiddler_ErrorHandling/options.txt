@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LRJmeterScriptNew\LRFilesPass\JPetstore\LR_JPetstore_Fiddler_ErrorHandling
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lrjmeterscriptnew\lrfilespass\jpetstore\lr_jpetstore_fiddler_errorhandling\\logfile.log
+d:\lrjmeterscriptnew\lrfilespass\jpetstore\lr_jpetstore_fiddler_errorhandling\\combined_LR_JPetstore_Fiddler_ErrorHandling.c
+d:\lrjmeterscriptnew\lrfilespass\jpetstore\lr_jpetstore_fiddler_errorhandling\\pre_cci.c

@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="JPetstore_SC01_TS02_EnterStore__*delimiter*__JPetstore_SC01_TS03_Signin__*delimiter*__JPetstore_SC01_TS04_ClickonDOGS__*delimiter*__JPetstore_SC01_TS05_ClickonProductID__*delimiter*__JPetstore_SC01_TS06_ClickonItemID__*delimiter*__JPetstore_SC01_TS07_ClickonAddtoCart__*delimiter*__JPetstore_SC01_TS08_ProceedtoCheck__*delimiter*__JPetstore_SC01_TS09_PaymentDetails__*delimiter*__JPetstore_SC01_TS10_ConfirmOrder__*delimiter*__JPetstore_SC01_TS11_Signout"
+[StateManagement]
+LastReplayStatus=0
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+JPetstore_SC01_TS02_EnterStore=
+JPetstore_SC01_TS03_Signin=
+JPetstore_SC01_TS04_ClickonDOGS=
+JPetstore_SC01_TS05_ClickonProductID=
+JPetstore_SC01_TS06_ClickonItemID=
+JPetstore_SC01_TS07_ClickonAddtoCart=
+JPetstore_SC01_TS08_ProceedtoCheck=
+JPetstore_SC01_TS09_PaymentDetails=
+JPetstore_SC01_TS10_ConfirmOrder=
+JPetstore_SC01_TS11_Signout=

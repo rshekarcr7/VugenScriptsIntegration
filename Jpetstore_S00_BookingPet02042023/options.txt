@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LRJmeterScriptNew\LRFilesPass\JPetstore\Jpetstore_S00_BookingPet02042023
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lrjmeterscriptnew\lrfilespass\jpetstore\jpetstore_s00_bookingpet02042023\\logfile.log
+d:\lrjmeterscriptnew\lrfilespass\jpetstore\jpetstore_s00_bookingpet02042023\\combined_Jpetstore_S00_BookingPet02042023.c
+d:\lrjmeterscriptnew\lrfilespass\jpetstore\jpetstore_s00_bookingpet02042023\\pre_cci.c

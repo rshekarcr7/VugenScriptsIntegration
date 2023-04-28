@@ -1,0 +1,149 @@
+[API Trapper      (3cf0:25d4)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\HP.LR.SazParser.exe
+[Network Analyzer (3cf0:25d4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3cf0:25d4)] Load Network Traffic Analyzers:
+[Network Analyzer (3cf0:25d4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3cf0:25d4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3cf0:25d4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3cf0:25d4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3cf0:25d4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3cf0:25d4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3cf0:25d4)] ------------------------------------------------------------------------------------------
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  1) Client -> Server @ : 817 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  1) Server -> Client : 171 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  2) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  2) Client -> Server @ : 77 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  2) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  2) Server -> Client : 312 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  3) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://safebrowsing.google.com/safebrowsing/clientreport/realtime"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  3) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  3) Server -> Client : 314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  3) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Catalog.action"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  4) Client -> Server @ : 772 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  4) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  4) Server -> Client : 5119 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Account.action;jsessionid=BDD46AB566459BB57C0061196A34C257?signonForm="   
+[Network Analyzer (3cf0:25d4)]   (Sid:  5) Client -> Server @ : 903 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  5) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  5) Server -> Client : 3622 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  6) Client -> Server @ : 385 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://beacons.gcp.gvt2.com/domainreliability/upload"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  6) Client -> Server @ : 335 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  6) Server -> Client : 1154 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  7) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  7) Client -> Server @ : 77 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  7) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  7) Server -> Client : 312 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  8) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://safebrowsing.google.com/safebrowsing/clientreport/realtime"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  8) Client -> Server @ : 643 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  8) Server -> Client : 314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  8) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  9) Client -> Server @ : 1039 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://petstore.octoperf.com/actions/Account.action"   
+[Network Analyzer (3cf0:25d4)]   (Sid:  9) Client -> Server @ : 233 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid:  9) Server -> Client : 217 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Catalog.action"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 10) Client -> Server @ : 929 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 10) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 10) Server -> Client : 4730 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 11) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 11) Client -> Server @ : 107 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 11) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 11) Server -> Client : 380 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 12) Client -> Server @ : 877 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 12) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 12) Server -> Client : 3653 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 13) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 13) Client -> Server @ : 109 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 13) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 13) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 14) Client -> Server @ : 909 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 14) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 14) Server -> Client : 3831 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 15) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 15) Client -> Server @ : 100 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 15) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 15) Server -> Client : 366 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-1"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 16) Client -> Server @ : 902 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 16) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 16) Server -> Client : 3532 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 17) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 17) Client -> Server @ : 109 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 17) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 17) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 18) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://safebrowsing.google.com/safebrowsing/clientreport/realtime"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 18) Client -> Server @ : 705 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 18) Server -> Client : 314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 18) Server -> Client : 52 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 19) Client -> Server @ : 902 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 19) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 19) Server -> Client : 4393 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 20) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 20) Client -> Server @ : 89 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 20) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 20) Server -> Client : 340 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 21) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://safebrowsing.google.com/safebrowsing/clientreport/realtime"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 21) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 21) Server -> Client : 314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 21) Server -> Client : 53 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Order.action?newOrderForm="   
+[Network Analyzer (3cf0:25d4)]   (Sid: 22) Client -> Server @ : 891 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 22) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 22) Server -> Client : 5158 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 23) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 23) Client -> Server @ : 75 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 23) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 23) Server -> Client : 308 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 24) Client -> Server @ : 993 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://petstore.octoperf.com/actions/Order.action"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 24) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 24) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 24) Server -> Client : 4305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 25) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 25) Client -> Server @ : 100 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 25) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 25) Server -> Client : 366 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 26) Client -> Server @ : 868 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 26) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 26) Server -> Client : 5006 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 27) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetHints?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 27) Client -> Server @ : 86 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 27) Server -> Client : 370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 27) Server -> Client : 334 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 28) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://safebrowsing.google.com/safebrowsing/clientreport/realtime"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 28) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 28) Server -> Client : 314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 28) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Account.action?signoff="   
+[Network Analyzer (3cf0:25d4)]   (Sid: 29) Client -> Server @ : 879 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 29) Server -> Client : 217 bytes (SSL) (Service=HTTP)
+[Web Request      (3cf0:25d4)] "GET https://petstore.octoperf.com/actions/Catalog.action"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 30) Client -> Server @ : 870 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 30) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 30) Server -> Client : 4503 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 31) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      (3cf0:25d4)] "POST https://safebrowsing.google.com/safebrowsing/clientreport/realtime"   
+[Network Analyzer (3cf0:25d4)]   (Sid: 31) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 31) Server -> Client : 314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cf0:25d4)]   (Sid: 31) Server -> Client : 55 bytes (SSL) (Service=HTTP)

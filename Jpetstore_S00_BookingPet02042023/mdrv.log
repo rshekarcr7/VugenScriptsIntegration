@@ -1,0 +1,30 @@
+Virtual User Script started at: 06-04-2023 09:04:46
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LRJmeterScriptNew\LRFilesPass\JPetstore\Jpetstore_S00_BookingPet02042023\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): Notify: Transaction "Jpetstore_S00_T01_LaunchUrl" started.
+Action.c(13): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+Action.c(13): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:0A000410:SSL routines::sslv3 alert handshake failure  	[MsgId: MMSG-26000]
+Action.c(13): Error -27774: SSL protocol error when attempting to connect with host "petstore.octoperf.com"  	[MsgId: MERR-27774]
+Action.c(13): Error -27760: Request "https://petstore.octoperf.com/" failed  	[MsgId: MERR-27760]
+Action.c(13): Registered web_reg_find successful for "Text=Welcome "  	[MsgId: MMSG-26362]
+Action.c(13): web_url("petstore.octoperf.com") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(13): Notify: Transaction "Jpetstore_S00_T01_LaunchUrl" ended with a "Fail" status (Duration: 0.7081 Wasted Time: 0.1691).
+Action.c(13): Notify: Transaction "Jpetstore_S00_T01_LaunchUrl" has 2 error message(s).
+Action.c(13): Notify: The 1st error message associated with transaction "Jpetstore_S00_T01_LaunchUrl" is "Error -27774: SSL protocol error when attempting to connect with host "petstore.octoperf.com""
+Action.c(13): Notify: The 2nd error message associated with transaction "Jpetstore_S00_T01_LaunchUrl" is "Error -27760: Request "https://petstore.octoperf.com/" failed"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

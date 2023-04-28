@@ -1,0 +1,341 @@
+[API Trapper      (3478: b50)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1c18:2bf0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (29e4:40f8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29e4:3898)] ------------------------------------------------------------------------------------------
+[Network Analyzer (29e4:3898)] Load Network Traffic Analyzers:
+[Network Analyzer (29e4:3898)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (29e4:3898)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (29e4:3898)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (29e4:3898)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (29e4:3898)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (29e4:3898)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (29e4:3898)]     Analyzer Module: local_server (value=)
+[Network Analyzer (29e4:3898)] ------------------------------------------------------------------------------------------
+[Network Analyzer (29e4:3ad8)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.195.227:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.196.13:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (29e4:1774)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:15e4)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[API Trapper      ( 8c4:2778)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (29e4:1774)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:15e4)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Web Request      (29e4:3ad8)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=111"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 172.253.118.188:5228   (Service=)  (Sid=  4)  PROXIED!
+[API Trapper      (1e00:27c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.205.238:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3ad8)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.193.99:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (29e4:16e0)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:16e0)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (29e4:3ad8)] "GET /"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 672 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 1442 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /css/jpetstore.css"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 566 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:20a8)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:20a8)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  4) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer (29e4:3ad8)]   (Sid:  4) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (29e4:3ad8)]   (Sid:  4) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (29e4:3ad8)]   (Sid:  4) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 1782 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /favicon.ico"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:22a4)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:22a4)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 986 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:1e60)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:1e60)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.195.202:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.182.142:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (29e4:147c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:147c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:34a0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:34a0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3ad8)]   (Sid:  8) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "POST /safebrowsing/clientreport/crx-telemetry"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  8) Client -> Server @ : 1147 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  8) Server -> Client : 321 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Catalog.action"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 742 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:2a40)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (29e4:2a40)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 1235 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/logo-topbar.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/dogs_icon.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:2eb4)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:2eb4)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Web Request      (29e4:3ad8)] "GET /images/cats_icon.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.195.138:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (29e4:3ad8)] (Sid:  9) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Server -> Client : 4095 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 753 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/fish_icon.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 693 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/sm_cats.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  9) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Server -> Client : 724 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 954 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/sm_birds.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Client -> Server @ : 689 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/birds_icon.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 691 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 574 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/splash.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  9) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Server -> Client : 536 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 756 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/cart.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Client -> Server @ : 685 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/separator.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  9) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 329 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/sm_fish.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/sm_dogs.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 3530 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  9) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Server -> Client : 556 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid:  3) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Server -> Client : 591 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:20c0)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:20c0)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 683 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:1d6c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:1d6c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:173c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:173c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:2898)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:2898)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (29e4:3ad8)] "GET /v1/pages/ChVDaHJvbWUvMTExLjAuNTU2My4xNDcSEAnfh7zKjxssDxIFDQKP-2g=?alt=proto"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 14) Client -> Server @ : 523 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 14) Server -> Client : 483 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.193.99:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (29e4:3f8c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:3f8c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (29e4:3ad8)] "GET /actions/Account.action;jsessionid=1E7A22904D6E9442A148E405168815BF?signonForm="   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 873 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "POST /service/update2/json?cup2key=12:mjZNvUY8bBR535JZqf3zHsbcAhnQ0PCFdABS9jUB8Cc&cup2hreq=5ad23d9358716738f6b4b0e66330fc396a21b59c94a2802d028bf125c1d878ca"
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Client -> Server @ : 8826 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 1145 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 267 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 3851 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /v1/pages/ChVDaHJvbWUvMTExLjAuNTU2My4xNDcSEAnfh7zKjxssDxIFDQKP-2gSFwk8GLxUJUMd8BIFDeeNQA4SBQ3OQUx6?alt=proto"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 14) Client -> Server @ : 555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 14) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "POST /actions/Account.action"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 1242 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 218 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Catalog.action"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 899 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 771 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/banner_dogs.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 2264 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "POST /service/update2/json"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Client -> Server @ : 1431 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 364 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 15) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3898)] Address lookup for DESKTOP-RBBD581 = 192.168.1.194
+[Network Analyzer (29e4:3898)] Request Connection: Remote Server @ 142.250.193.106:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (29e4:1be0)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (29e4:1be0)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (29e4:3ad8)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTExLjAuNTU2My4xNDcaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDboRAaAhgGNFvraCIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQtYYMGgIYBlkql5AiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABELXWDBoCGAatVWbiIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYBpSmMqUiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEJ8yGgIYBj8jcDQiBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABEMlzGgIYBhvVJ8siBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgGpGQBeyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAYoQ6eGIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCrEhoCGAbXW2pRIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCl4wEaAhgGjfeswCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ4f0LGgIYBgoD5_4iBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABELz5BhoCGAYlkwLMIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARD0FxoCGAZRutAaIgQgASACKAEiAggD&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1318 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 959 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 16) Server -> Client : 17 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid: 13) Connection Terminated (by Server)
+[Web Request      (29e4:3ad8)] "GET /actions/Catalog.action?viewCategory=&categoryId=BIRDS"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 848 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 3616 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid:  3) Connection Terminated (by Server)
+[API Trapper      (1dc8:3d28)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Web Request      (29e4:3ad8)] "GET /actions/Catalog.action?viewProduct=&productId=AV-CB-01"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 3787 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Catalog.action?viewItem=&itemId=EST-18"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 873 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 3777 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /images/bird2.gif"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 710 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 3392 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Cart.action?addItemToCart=&workingItemId=EST-18"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 874 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 450 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Order.action?newOrderForm="   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 862 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 1199 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 963 bytes (SSL)(Service=HTTP)
+[Web Request      (29e4:3ad8)] "POST /actions/Order.action"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 346 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (29e4:3ad8)]   (Sid:  8) Connection Terminated (by Server)
+[Web Request      (29e4:3ad8)] "GET /actions/Order.action?newOrder=&confirmed=true"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 838 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 1061 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Account.action?signoff="   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 849 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 218 bytes (SSL) (Service=HTTP)
+[Web Request      (29e4:3ad8)] "GET /actions/Catalog.action"   
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Client -> Server @ : 840 bytes (SSL)(Service=HTTP)
+[Network Analyzer (29e4:3ad8)] (Sid: 10) The target site is using an earlier version of SSL than specified in the Recording options. Try changing the SSL version to SSL2/3 (Recording Options > Network > Mapping and Filtering > Options) and re-recording the business process.
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (29e4:3ad8)]   (Sid: 10) Server -> Client : 619 bytes (SSL) (Service=HTTP)

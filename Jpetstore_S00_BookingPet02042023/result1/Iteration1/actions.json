@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1680752087222
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Jpetstore_S00_T01_LaunchUrl",
+                "rawStartTime": 1680752086516,
+                "rawEndTime": 1680752087224,
+                "thinkTime": 0.0,
+                "wastedTime": 0.16911721229553224
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LRJmeterScriptNew\LRFilesPass\JPetstore\LR_JPetstore_Fiddler_Reusable_ModularApproach_code
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lrjmeterscriptnew\lrfilespass\jpetstore\lr_jpetstore_fiddler_reusable_modularapproach_code\\logfile.log
+d:\lrjmeterscriptnew\lrfilespass\jpetstore\lr_jpetstore_fiddler_reusable_modularapproach_code\\combined_LR_JPetstore_Fiddler_Reusable_ModularApproach_code.c
+d:\lrjmeterscriptnew\lrfilespass\jpetstore\lr_jpetstore_fiddler_reusable_modularapproach_code\\pre_cci.c

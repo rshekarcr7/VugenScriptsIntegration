@@ -1,0 +1,72 @@
+#ifndef _Jessica_H 
+#define _Jessica_H
+
+
+launch()
+{
+lr_start_transaction("Petstore_SC01_TS01_Launch");
+
+	web_url("Catalog.action", 
+		"URL=https://petstore.octoperf.com/actions/Catalog.action", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://petstore.octoperf.com/", 
+		"Snapshot=t1.inf", 
+		"Mode=HTML", 
+		LAST);
+
+		lr_end_transaction("Petstore_SC01_TS01_Launch", LR_AUTO);
+return 0;
+
+}
+
+login()
+{
+lr_start_transaction("Petstore_SC01_TS03_EntertoLogin");
+
+	web_add_header("Origin", 
+		"https://petstore.octoperf.com");
+
+	web_submit_data("Account.action", 
+		"Action=https://petstore.octoperf.com/actions/Account.action", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=https://petstore.octoperf.com/actions/Account.action;jsessionid={c_jsessionid}?signonForm=", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
+		ITEMDATA, 
+		"Name=username", "Value=j2ee", ENDITEM, 
+		"Name=password", "Value=j2ee", ENDITEM, 
+		"Name=signon", "Value=Login", ENDITEM, 
+		"Name=_sourcePage", "Value=i5yGsK-w2G5szBbv-EXUM4EGG1kUQsaAeRKZLi30DUeTIuJI-9tupMVIN0xK7PWEMaSpqSybCMaGeLnc5JDeVESEqQCBUhQ8LenMU5Bv14g=", ENDITEM, 
+		"Name=__fp", "Value=4AcHnPQY2o_DTjoEphdrrKB2dJPr7kMdENdybcHA_1yqKqJ_2eVok1XnJXPQsMC0", ENDITEM, 
+		LAST);
+
+		lr_end_transaction("Petstore_SC01_TS03_EntertoLogin", LR_AUTO);
+	
+
+return 0;
+}
+
+signoff()
+{
+lr_start_transaction("Petstore_SC01_TS11_Signoff");
+
+	web_url("Sign Out", 
+		"URL=https://petstore.octoperf.com/actions/Account.action?signoff=", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true", 
+		"Snapshot=t11.inf", 
+		"Mode=HTML", 
+		LAST);
+
+		lr_end_transaction("Petstore_SC01_TS11_Signoff", LR_AUTO);
+
+return 0;
+}
+
+#endif //_Jessica.H

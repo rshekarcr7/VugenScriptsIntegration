@@ -1,0 +1,9 @@
+HTTP/2.0 200
+Status: 200
+date: Mon, 06 Mar 2023 09:18:48 GMT
+content-type: text/html;charset=UTF-8
+content-length: 5119
+set-cookie: JSESSIONID=BEE27F22ED554122C84FDDFF99D65998; Path=/; HttpOnly
+content-language: en
+strict-transport-security: max-age=15724800; includeSubDomains
+

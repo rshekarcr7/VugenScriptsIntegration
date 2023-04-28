@@ -1,0 +1,20 @@
+#ifndef _MeganFoxx_H 
+#define _MeganFoxx_H
+
+Launch()
+lr_start_transaction("Jpetstore_S00_T01_LaunchUrl");
+
+	web_url("petstore.octoperf.com", 
+		"URL=https://petstore.octoperf.com/", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=", 
+		"Snapshot=t1.inf", 
+		"Mode=HTML", 
+		LAST);
+return 0;
+}
+#endif //_MeganFoxx.H
+
+		lr_end_transaction("Jpetstore_S00_T01_LaunchUrl", LR_AUTO);
